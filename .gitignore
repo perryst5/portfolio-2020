@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# MacOS
+.DS_Store
+thumbs.db
+# Local Netlify folder
+.netlify
