@@ -1,7 +1,12 @@
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+
 const Header = () => {
   return (
     <div className="header">
-      Test
+      <div className="social-links">
+        <a href="https://github.com/perryst5"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/steven-perry-2a059569/"><FaLinkedin /></a>
+      </div>
     </div>
   )
 }

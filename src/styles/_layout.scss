@@ -1,0 +1,12 @@
+.site-wrapper{
+  @media(min-width: 1024px){
+    height: 100vh;
+    display: grid;
+    grid-template-columns: [navStart] 300px [contentColStart] auto [contentColEnd] 60px [end];
+    grid-template-rows: [headerStart] 80px [contentRowStart] auto [contentRowEnd] 60px;
+    grid-template-areas: 
+      "sidebar header header"
+      "sidebar content ."
+      "sidebar footer footer";
+  }
+}
